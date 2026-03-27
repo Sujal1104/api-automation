@@ -131,10 +131,10 @@ response.jsonPath().getString("data['CPU model']")
 
 ## 👨‍💻 Author
 
-Sujal
+Sujal Mansuri
 
 ---
 
 ## 📎 Repository
 
-[Add your GitHub repository link here]
+[https://github.com/Sujal1104/api-automation/]
