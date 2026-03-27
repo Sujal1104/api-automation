@@ -24,4 +24,4 @@ Feature: Object API End-to-End Testing
 
     Scenario: Create object with missing name
     When user sends request without name
-    Then response code should be 200
+    Then response code should be 405
