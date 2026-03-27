@@ -7,7 +7,7 @@ It covers end-to-end testing of a RESTful service including create, retrieve, an
 
 ---
 
-## 🚀 Featuresvv
+## 🚀 Feature
 
 * BDD-based test scenarios using Cucumber
 * REST API automation using Rest Assured
