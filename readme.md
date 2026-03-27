@@ -7,7 +7,7 @@ It covers end-to-end testing of a RESTful service including create, retrieve, an
 
 ---
 
-## 🚀 Features
+## 🚀 Featuresvv
 
 * BDD-based test scenarios using Cucumber
 * REST API automation using Rest Assured
@@ -162,6 +162,7 @@ if (response.asString().contains("daily request limit")) {
 * API layer abstraction for better reusability
 
 ---
+```
 
 ## 👨‍💻 Author
 
