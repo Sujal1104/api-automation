@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="3.999" tests="3" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="5.527" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="apiKey" value="635202c3-5726-4114-8d1b-0867cdf17156"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/sujal/restassured-cucumber/target/surefire/surefirebooter-20260327230631347_3.jar /home/sujal/restassured-cucumber/target/surefire 2026-03-27T23-06-31_245-jvmRun1 surefire-20260327230631347_1tmp surefire_0-20260327230631347_2tmp"/>
+    <property name="sun.java.command" value="/home/sujal/restassured-cucumber/target/surefire/surefirebooter-20260328090553400_3.jar /home/sujal/restassured-cucumber/target/surefire 2026-03-28T09-05-53_287-jvmRun1 surefire-20260328090553400_1tmp surefire_0-20260328090553400_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/sujal/restassured-cucumber/target/test-classes:/home/sujal/restassured-cucumber/target/classes:/home/sujal/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/home/sujal/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/home/sujal/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/home/sujal/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/sujal/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/sujal/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/sujal/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/sujal/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/home/sujal/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/sujal/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/sujal/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/home/sujal/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/sujal/.m2/repository/io/cucumber/cucumber-java/7.14.0/cucumber-java-7.14.0.jar:/home/sujal/.m2/repository/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0.jar:/home/sujal/.m2/repository/io/cucumber/cucumber-gherkin/7.14.0/cucumber-gherkin-7.14.0.jar:/home/sujal/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.14.0/cucumber-gherkin-messages-7.14.0.jar:/home/sujal/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/home/sujal/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/home/sujal/.m2/repository/io/cucumber/tag-expressions/5.0.6/tag-expressions-5.0.6.jar:/home/sujal/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/home/sujal/.m2/repository/io/cucumber/datatable/7.14.0/datatable-7.14.0.jar:/home/sujal/.m2/repository/io/cucumber/cucumber-plugin/7.14.0/cucumber-plugin-7.14.0.jar:/home/sujal/.m2/repository/io/cucumber/docstring/7.14.0/docstring-7.14.0.jar:/home/sujal/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/home/sujal/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/home/sujal/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar:/home/sujal/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/sujal/.m2/repository/io/cucumber/cucumber-junit/7.14.0/cucumber-junit-7.14.0.jar:/home/sujal/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/sujal/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/sujal/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/home/sujal/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/home/sujal/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/home/sujal/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.0/jackson-databind-2.17.0.jar:/home/sujal/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.0/jackson-annotations-2.17.0.jar:/home/sujal/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.0/jackson-core-2.17.0.jar:/home/sujal/.m2/repository/net/bytebuddy/byte-buddy/1.14.9/byte-buddy-1.14.9.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/sujal/restassured-cucumber/target/surefire/surefirebooter-20260327230631347_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/sujal/restassured-cucumber/target/surefire/surefirebooter-20260328090553400_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.18+8-Ubuntu-122.04.1"/>
     <property name="user.name" value="sujal"/>
@@ -53,15 +53,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Create, Get and Delete object" classname="Object API End-to-End Testing" time="3.057">
-    <failure message="expected:&lt;Apple MacBook Pro 16&gt; but was:&lt;null&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<Apple MacBook Pro 16> but was:<null>
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.failNotEquals(Assert.java:835)
-	at org.junit.Assert.assertEquals(Assert.java:120)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at stepdefinitions.ObjectSteps.validateGet(ObjectSteps.java:124)
-	at ✽.response contains correct name(file:///home/sujal/restassured-cucumber/src/test/resources/features/object.feature:13)
-]]></failure>
+  <testcase name="Create, Get and Delete object" classname="Object API End-to-End Testing" time="4.089">
     <system-out><![CDATA[
 Scenario: Create, Get and Delete object          # src/test/resources/features/object.feature:3
   Given a "Apple MacBook Pro 16" item is created # stepdefinitions.ObjectSteps.setName(java.lang.String)
@@ -87,8 +79,8 @@ Body:
     },
     "name": "Apple MacBook Pro 16"
 }
-HTTP/1.1 405 Method Not Allowed
-Date: Fri, 27 Mar 2026 17:36:34 GMT
+HTTP/1.1 200 OK
+Date: Sat, 28 Mar 2026 03:35:57 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -104,20 +96,26 @@ Pragma: no-cache
 Expires: 0
 X-Frame-Options: DENY
 cf-cache-status: DYNAMIC
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=zOB0a4NCFfwXYDMFZoi5uxPl%2B%2FEbGkiJMiRdqzI0BS1KwBBqUsiVouGzqtn1M4I08RJivVdJjsYpovsXFsDGv1CvLI94Uq7V1UjrHaQYJpe1K014IKeicbciIXc3EChcBNdXq83Q"}]}
-CF-RAY: 9e3028743bf02b45-HYD
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=dEnzYVSy9YkOB1ZiNt4WR4tjxNd48Ym6hXVzSrRHmWXBXyNF%2FGE4Rn2bn7IvrzYypQ9oUhjs2XfraYdCyE0FwdThLhFNKAZNT2o3kP1h8k8%2BSXfMPxwiFuXC%2FBc2HwANiiLwQjM9"}]}
+Content-Encoding: gzip
+CF-RAY: 9e339674e8762e9f-HYD
 alt-svc: h3=":443"; ma=86400
 
 {
-    "error": "You’ve reached the daily request limit for our public API (50 requests per day). Create a free account or sign in at https://restful-api.dev/sign-in to increase your limits and unlock advanced features"
+    "id": "ff8081819d150699019d328345513a29",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": 1774668957009,
+    "data": {
+        "year": 2024,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9"
+    }
 }
   When the request to add the item is made       # stepdefinitions.ObjectSteps.createObject()
-⚠ API LIMIT HIT — skipping strict validation
   Then a 200 response code is returned           # stepdefinitions.ObjectSteps.validateStatus()
-⚠ API LIMIT HIT — skipping name validation
   And a "Apple MacBook Pro 16" is created        # stepdefinitions.ObjectSteps.validateName(java.lang.String)
 Request method:	GET
-Request URI:	https://api.restful-api.dev/objects/null
+Request URI:	https://api.restful-api.dev/objects/ff8081819d150699019d328345513a29
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -127,8 +125,8 @@ Headers:		Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-HTTP/1.1 405 Method Not Allowed
-Date: Fri, 27 Mar 2026 17:36:34 GMT
+HTTP/1.1 200 OK
+Date: Sat, 28 Mar 2026 03:35:58 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -144,30 +142,101 @@ Pragma: no-cache
 Expires: 0
 X-Frame-Options: DENY
 cf-cache-status: DYNAMIC
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2BPSHQsLdPI2ub9lbFon8FGRvG0dEqa568IIKF6jMgX6C5lmiEVcipYwFjb6s9okzpfDzHnyDbVlrhfM5G07LDVvGsf9XQ5bWSg7M0ah3naG5HHkZ06nqCpCwljQgNAC5zy%2FWudoj"}]}
-CF-RAY: 9e30287918873ef6-HYD
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=GCPyiaRt1JiM8a1OmXjTR%2FnL9yd94o6lCQ5R%2F%2BmK2PPmDUV9kZ8vGhR8nINJitkmC%2F1NCbOeojlS399sAu8NUY03R0Rpznjo6dK4NAh37oCelPbnOdtYWIzDjFMogQSKVfIheJf4"}]}
+Content-Encoding: gzip
+CF-RAY: 9e33967becec2e8b-HYD
 alt-svc: h3=":443"; ma=86400
 
 {
-    "error": "You’ve reached the daily request limit for our public API (50 requests per day). Create a free account or sign in at https://restful-api.dev/sign-in to increase your limits and unlock advanced features"
+    "id": "ff8081819d150699019d328345513a29",
+    "name": "Apple MacBook Pro 16",
+    "data": {
+        "year": 2024,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9"
+    }
 }
   When user retrieves the created object         # stepdefinitions.ObjectSteps.getObject()
   Then response contains correct name            # stepdefinitions.ObjectSteps.validateGet()
-      java.lang.AssertionError: expected:<Apple MacBook Pro 16> but was:<null>
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.failNotEquals(Assert.java:835)
-	at org.junit.Assert.assertEquals(Assert.java:120)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at stepdefinitions.ObjectSteps.validateGet(ObjectSteps.java:124)
-	at ✽.response contains correct name(file:///home/sujal/restassured-cucumber/src/test/resources/features/object.feature:13)
+Request method:	DELETE
+Request URI:	https://api.restful-api.dev/objects/ff8081819d150699019d328345513a29
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 28 Mar 2026 03:35:58 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=8%2BZPruwhaQpr%2BdaS3NWErk6ONlb9oDaoryt7JIpPnflfFUxTX766Npvg3NieAfH9qo5oWJQeVb0l%2FJLwguM4vRgQO0gsmMqS4kiGPOrQupccGmqr72X9GeFQ6Vn2q4jY7vBSs%2BEv"}]}
+Content-Encoding: gzip
+CF-RAY: 9e33967f2d4fd11e-HYD
+alt-svc: h3=":443"; ma=86400
 
+{
+    "message": "Object with id = ff8081819d150699019d328345513a29 has been deleted."
+}
   When user deletes the object                   # stepdefinitions.ObjectSteps.deleteObject()
   Then response code should be 200               # stepdefinitions.ObjectSteps.response_code_should_be(java.lang.Integer)
+Request method:	GET
+Request URI:	https://api.restful-api.dev/objects/ff8081819d150699019d328345513a29
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Date: Sat, 28 Mar 2026 03:35:59 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=u3dS7T%2B3PLoisejgdszDuFHEtfMR9bfEsL2A5LkNsEWt6LIE%2BD0jhQ2PnlmCq%2FNcoMrCzBvBOB6%2Fjw%2Fa0gJwfmiqdx1I%2FGGEQBgXqm1QllGxXFemWKjkXHkG9RFE6pdU8FXKQIU4"}]}
+Content-Encoding: gzip
+CF-RAY: 9e33968198fb2b45-HYD
+alt-svc: h3=":443"; ma=86400
+
+{
+    "error": "Object with id=ff8081819d150699019d328345513a29 was not found."
+}
   When user retrieves the deleted object         # stepdefinitions.ObjectSteps.getDeletedObject()
   Then response code should be 404               # stepdefinitions.ObjectSteps.response_code_should_be(java.lang.Integer)
 ]]></system-out>
   </testcase>
-  <testcase name="Get invalid object" classname="Object API End-to-End Testing" time="0.292">
+  <testcase name="Get invalid object" classname="Object API End-to-End Testing" time="0.333">
     <system-out><![CDATA[
 Scenario: Get invalid object                 # src/test/resources/features/object.feature:21
 Request method:	GET
@@ -181,8 +250,8 @@ Headers:		Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-HTTP/1.1 405 Method Not Allowed
-Date: Fri, 27 Mar 2026 17:36:35 GMT
+HTTP/1.1 404 Not Found
+Date: Sat, 28 Mar 2026 03:35:59 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -198,19 +267,19 @@ Pragma: no-cache
 Expires: 0
 X-Frame-Options: DENY
 cf-cache-status: DYNAMIC
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=tJvVjtbSe5%2FSbbbdM6AxhY4YE4iV6IyhO7EicHOHKpp8AsC7Z%2B61Rg32rA%2BUNbIfvPp95lUtDNCuBw8WOOj6dHKDdC7UZ0wJlrYBrzwSRvzFKEfcNmXPmFMFaTaQRN8fYnVHqc6P"}]}
-CF-RAY: 9e30287b3f06b0aa-HYD
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=KhrcrVznKBfI7eWyVtqNH5em%2Bygk2n3mlBwAxzRDTZW2YCEl2y3w8AKZx6BbPp28n%2Bb%2FWT8CND6CVq9iHVPJv6NNQFWGtQNqQtbls7jC7VwG8s0TeecHzqwHov65Xgwow1Ed6sUO"}]}
+Content-Encoding: gzip
+CF-RAY: 9e3396844ed02e99-HYD
 alt-svc: h3=":443"; ma=86400
 
 {
-    "error": "You’ve reached the daily request limit for our public API (50 requests per day). Create a free account or sign in at https://restful-api.dev/sign-in to increase your limits and unlock advanced features"
+    "error": "Object with id=invalid123 was not found."
 }
   When user retrieves object with invalid id # stepdefinitions.ObjectSteps.getInvalidObject()
-⚠ API LIMIT HIT — skipping strict validation
   Then response code should be 404           # stepdefinitions.ObjectSteps.response_code_should_be(java.lang.Integer)
 ]]></system-out>
   </testcase>
-  <testcase name="Create object with missing name" classname="Object API End-to-End Testing" time="0.375">
+  <testcase name="Create object with missing name" classname="Object API End-to-End Testing" time="0.387">
     <system-out><![CDATA[
 Scenario: Create object with missing name # src/test/resources/features/object.feature:25
 Request method:	POST
@@ -228,8 +297,8 @@ Body:
 {
     
 }
-HTTP/1.1 405 Method Not Allowed
-Date: Fri, 27 Mar 2026 17:36:35 GMT
+HTTP/1.1 200 OK
+Date: Sat, 28 Mar 2026 03:35:59 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -245,16 +314,82 @@ Pragma: no-cache
 Expires: 0
 X-Frame-Options: DENY
 cf-cache-status: DYNAMIC
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=lqQ7%2FnyNEiK8oii8e611rEmhPhyfOiN5pTYOiRWWFQDTL0g%2F5U9xlHCRLc4VD8KEpaExXjunSR7WoC8b8g6NBU8BMzaEM9T7u%2FUCKGHnKgTFVtV%2FnmR7BqYgRipf2JzQQEEBQ21X"}]}
-CF-RAY: 9e30287cffee5ef9-HYD
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=aBo7IX6hMdd5kYLq3mC11HNoE2uIg0mK8Z0qMOcd6LKvAAPEy0zUUi%2FvaQnBT2q7nesDb6IBj24alVKbK6u%2B3XYuKI0POtdnnhOGGIrIwd3I%2F2CX2AYVxNVy3jhf6lEJ1G91KX75"}]}
+Content-Encoding: gzip
+CF-RAY: 9e3396865c94b0aa-HYD
 alt-svc: h3=":443"; ma=86400
 
 {
-    "error": "You’ve reached the daily request limit for our public API (50 requests per day). Create a free account or sign in at https://restful-api.dev/sign-in to increase your limits and unlock advanced features"
+    "id": "ff8081819d150699019d328350313a2a",
+    "name": null,
+    "createdAt": 1774668959793,
+    "data": null
 }
   When user sends request without name    # stepdefinitions.ObjectSteps.createInvalidObject()
-⚠ API LIMIT HIT — skipping strict validation
-  Then response code should be 405        # stepdefinitions.ObjectSteps.response_code_should_be(java.lang.Integer)
+  Then response code should be 200        # stepdefinitions.ObjectSteps.response_code_should_be(java.lang.Integer)
+]]></system-out>
+  </testcase>
+  <testcase name="Create object using authenticated API" classname="Object API End-to-End Testing" time="0.46">
+    <system-out><![CDATA[
+Scenario: Create object using authenticated API   # src/test/resources/features/object.feature:29
+  Given a "Authenticated MacBook" item is created # stepdefinitions.ObjectSteps.setName(java.lang.String)
+  And the CPU model is "M2"                       # stepdefinitions.ObjectSteps.setCPU(java.lang.String)
+  And has a price of "2500"                       # stepdefinitions.ObjectSteps.setPrice(java.lang.String)
+Request method:	POST
+Request URI:	https://api.restful-api.dev/objects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "data": {
+        "year": 2024,
+        "price": 2500.0,
+        "CPU model": "M2"
+    },
+    "name": "Authenticated MacBook"
+}
+HTTP/1.1 200 OK
+Date: Sat, 28 Mar 2026 03:36:00 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=4LL%2BQubg2Ab7M6rFektLDJfAUhYnR7ZFq0Ki9tIRAd47QN1KiiyihWxmLc24eVYkaaOeDGzDyKOMGsgTOiWYJXF1IOJd7IQ7M%2Fv%2BSwyBkUHtDJElCrPCeE%2BSIEnff7e5tJNluqNb"}]}
+Content-Encoding: gzip
+CF-RAY: 9e339688dce12e8d-HYD
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": "ff8081819d150699019d328351c43a2b",
+    "name": "Authenticated MacBook",
+    "createdAt": 1774668960196,
+    "data": {
+        "year": 2024,
+        "price": 2500.0,
+        "CPU model": "M2"
+    }
+}
+  When the request to add the item is made        # stepdefinitions.ObjectSteps.createObject()
+  Then a 200 response code is returned            # stepdefinitions.ObjectSteps.validateStatus()
+  And a "Authenticated MacBook" is created        # stepdefinitions.ObjectSteps.validateName(java.lang.String)
 ]]></system-out>
   </testcase>
 </testsuite>

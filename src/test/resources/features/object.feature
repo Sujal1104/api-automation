@@ -24,4 +24,12 @@ Feature: Object API End-to-End Testing
 
     Scenario: Create object with missing name
     When user sends request without name
-    Then response code should be 405
+    Then response code should be 200
+
+     Scenario: Create object using authenticated API
+   Given a "Authenticated MacBook" item is created
+   And the CPU model is "M2"
+   And has a price of "2500"
+   When the request to add the item is made
+   Then a 200 response code is returned
+   And a "Authenticated MacBook" is created

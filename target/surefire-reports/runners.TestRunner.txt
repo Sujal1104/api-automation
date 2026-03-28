@@ -1,13 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: runners.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.999 s <<< FAILURE! - in runners.TestRunner
-Object API End-to-End Testing.Create, Get and Delete object  Time elapsed: 3.057 s  <<< FAILURE!
-java.lang.AssertionError: expected:<Apple MacBook Pro 16> but was:<null>
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.failNotEquals(Assert.java:835)
-	at org.junit.Assert.assertEquals(Assert.java:120)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at stepdefinitions.ObjectSteps.validateGet(ObjectSteps.java:124)
-	at ✽.response contains correct name(file:///home/sujal/restassured-cucumber/src/test/resources/features/object.feature:13)
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.527 s - in runners.TestRunner
